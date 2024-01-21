@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  这个是adsplus国内版本的cocoapods
+  这个是AdsPlus通用版本.的cocoapods
                    DESC
 
   spec.homepage     = "https://github.com/adsplusteam/adsplus-ios-all"
@@ -151,7 +151,6 @@ Pod::Spec.new do |spec|
    spec.dependency "IronSourceSDK", "7.3.0.0"
    spec.dependency "Google-Mobile-Ads-SDK", "10.14.0"
    spec.dependency "GoogleMobileAdsMediationFacebook", "6.12.0.1"
-   spec.dependency "GoogleMobileAdsMediationVungle", "6.12.3.0"
    spec.dependency "GoogleMobileAdsMediationAdColony", "4.9.0.2"
    spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
    spec.dependency "AppLovinSDK", "11.11.3"
