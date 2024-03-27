@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-All"
-  spec.version      = "4.2.2"
+  spec.version      = "4.2.3.1"
   spec.summary      = "AdsPlus通用版本."
 
   # This description is used to generate tags and improve search results.
@@ -73,6 +73,7 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
   # spec.visionos.deployment_target = "1.0"
+
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -138,13 +139,13 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "AliyunLogProducer", "~> 3.1.16"
+   spec.dependency "AliyunLogProducer", "3.1.16"
    spec.dependency "GDTMobSDK", "4.14.70"
    spec.dependency "KSAdSDK", "3.3.61"
-   spec.dependency "JADYun", "~> 2.2.8"
+   spec.dependency "JADYun", "2.4.6"
    spec.dependency "KlevinAdSDK", "~> 2.10.1"
-   spec.dependency "BaiduMobAdSDK", "~> 5.300"
-   spec.dependency "MintegralAdSDK/All", "~> 7.3.7"
+   spec.dependency "BaiduMobAdSDK", "5.34"
+   spec.dependency "MintegralAdSDK/All", "7.3.7"
    spec.dependency 'Ads-Fusion-CN-Beta','6.0.0.5'
    spec.dependency "CSJMBaiduAdapter", "5.34.0"
    spec.dependency "CSJMGdtAdapter", "4.14.63.0"
@@ -160,10 +161,10 @@ Pod::Spec.new do |spec|
    spec.dependency "GoogleMobileAdsMediationAdColony", "4.9.0.2"
    spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
    spec.dependency "AppLovinSDK", "11.11.3"
-   spec.dependency "AppLovinMediationAmazonAdMarketplaceAdapter"
-   spec.dependency "AppLovinMediationGoogleAdapter"
-   spec.dependency "AppLovinMediationIronSourceAdapter"
-   spec.dependency "AppLovinMediationMintegralAdapter"
+   spec.dependency "AppLovinMediationAmazonAdMarketplaceAdapter",'4.7.7.0'
+   spec.dependency "AppLovinMediationGoogleAdapter",'10.14.0.1'
+   spec.dependency "AppLovinMediationIronSourceAdapter",'7.3.0.0.0'
+   spec.dependency "AppLovinMediationMintegralAdapter",'7.3.7.0.0'
    spec.dependency "AppLovinMediationByteDanceAdapter"
 
 end
