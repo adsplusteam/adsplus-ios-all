@@ -142,9 +142,10 @@ Pod::Spec.new do |spec|
    spec.dependency "AliyunLogProducer", "3.1.16"
    spec.dependency "GDTMobSDK", "4.14.70"
    spec.dependency "KSAdSDK", "3.3.61"
-   spec.dependency "JADYun", "2.4.6"
+   spec.dependency "JADYun", "2.5.8"
    spec.dependency "KlevinAdSDK", "~> 2.10.1"
    spec.dependency "BaiduMobAdSDK", "5.34"
+   spec.dependency "OctopusSDK", "1.5.9.37"
    spec.dependency "MintegralAdSDK/All", "7.3.7"
    spec.dependency 'Ads-Fusion-CN-Beta','6.0.0.5'
    spec.dependency "CSJMBaiduAdapter", "5.34.0"
