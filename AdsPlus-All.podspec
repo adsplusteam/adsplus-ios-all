@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-All"
-  spec.version      = "4.2.6"
+  spec.version      = "4.2.7.1"
   spec.summary      = "AdsPlus通用版本."
 
   # This description is used to generate tags and improve search results.
@@ -143,29 +143,24 @@ Pod::Spec.new do |spec|
    spec.dependency "GDTMobSDK", "4.14.70"
    spec.dependency "KSAdSDK", "3.3.61"
    spec.dependency "JADYun", "2.5.8"
-   spec.dependency "KlevinAdSDK", "~> 2.10.1"
    spec.dependency "BaiduMobAdSDK", "5.34"
    spec.dependency "OctopusSDK", "1.5.9.37"
    spec.dependency "MintegralAdSDK/All", "7.3.7"
    spec.dependency 'Ads-Fusion-CN-Beta','6.0.0.5'
    spec.dependency "CSJMBaiduAdapter", "5.34.0"
    spec.dependency "CSJMGdtAdapter", "4.14.63.0"
-   spec.dependency "CSJMKlevinAdapter", "2.11.0.211.1"
    spec.dependency "CSJMKsAdapter", "3.3.61.0.0"
    spec.dependency "CSJMMintegralAdapter", "7.5.5.0.0"
    spec.dependency "BigoADS", "2.3.4"
    spec.dependency "Ads-Global", "5.3.1.1"
    spec.dependency "IronSourceSDK", "7.3.0.0"
-   spec.dependency "Google-Mobile-Ads-SDK", "10.14.0"
-   spec.dependency "GoogleMobileAdsMediationFacebook", "6.12.0.1"
-   spec.dependency "GoogleMobileAdsMediationVungle", "6.12.3.0"
-   spec.dependency "GoogleMobileAdsMediationAdColony", "4.9.0.2"
+   spec.dependency "Google-Mobile-Ads-SDK", "11.5.0"
    spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
    spec.dependency "AppLovinSDK", "11.11.3"
-   spec.dependency "AppLovinMediationAmazonAdMarketplaceAdapter",'4.7.7.0'
-   spec.dependency "AppLovinMediationGoogleAdapter",'10.14.0.1'
-   spec.dependency "AppLovinMediationIronSourceAdapter",'7.3.0.0.0'
-   spec.dependency "AppLovinMediationMintegralAdapter",'7.3.7.0.0'
+   spec.dependency "AppLovinMediationAmazonAdMarketplaceAdapter"
+   spec.dependency "AppLovinMediationGoogleAdapter","11.5.0.0"
+   spec.dependency "AppLovinMediationIronSourceAdapter"
+   spec.dependency "AppLovinMediationMintegralAdapter"
    spec.dependency "AppLovinMediationByteDanceAdapter"
 
 end
