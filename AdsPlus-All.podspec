@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-All"
-  spec.version      = "4.2.7.1"
+  spec.version      = "4.2.7.2"
   spec.summary      = "AdsPlus通用版本."
 
   # This description is used to generate tags and improve search results.
@@ -142,7 +142,6 @@ Pod::Spec.new do |spec|
    spec.dependency "AliyunLogProducer", "3.1.16"
    spec.dependency "GDTMobSDK", "4.14.70"
    spec.dependency "KSAdSDK", "3.3.61"
-   spec.dependency "JADYun", "2.5.8"
    spec.dependency "BaiduMobAdSDK", "5.34"
    spec.dependency "OctopusSDK", "1.5.9.37"
    spec.dependency "MintegralAdSDK/All", "7.3.7"
@@ -155,9 +154,7 @@ Pod::Spec.new do |spec|
    spec.dependency "Ads-Global", "5.3.1.1"
    spec.dependency "IronSourceSDK", "7.3.0.0"
    spec.dependency "Google-Mobile-Ads-SDK", "11.5.0"
-   spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
    spec.dependency "AppLovinSDK", "11.11.3"
-   spec.dependency "AppLovinMediationAmazonAdMarketplaceAdapter"
    spec.dependency "AppLovinMediationGoogleAdapter","11.5.0.0"
    spec.dependency "AppLovinMediationIronSourceAdapter"
    spec.dependency "AppLovinMediationMintegralAdapter"
