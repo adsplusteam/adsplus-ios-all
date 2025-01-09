@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-All"
-  spec.version      = "4.2.7.6"
+  spec.version      = "4.2.7.7"
   spec.summary      = "AdsPlus通用版本."
 
   # This description is used to generate tags and improve search results.
@@ -146,7 +146,7 @@ Pod::Spec.new do |spec|
    spec.dependency "BaiduMobAdSDK", "5.34"
    spec.dependency "OctopusSDK", "1.5.9.37"
    spec.dependency "MintegralAdSDK/All", "7.3.7"
-   spec.dependency 'Ads-Fusion-CN-Beta','6.4.1.0'
+   spec.dependency 'Ads-Fusion-CN-Beta','6.5.1.1'
    spec.dependency "CSJMBaiduAdapter"
    spec.dependency "CSJMGdtAdapter"
    spec.dependency "CSJMKsAdapter"
