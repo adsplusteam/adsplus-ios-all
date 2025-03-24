@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-All"
-  spec.version      = "4.2.7.7"
+  spec.version      = "4.2.8"
   spec.summary      = "AdsPlus通用版本."
 
   # This description is used to generate tags and improve search results.
@@ -159,6 +159,5 @@ Pod::Spec.new do |spec|
    spec.dependency "AppLovinMediationGoogleAdapter","11.5.0.0"
    spec.dependency "AppLovinMediationIronSourceAdapter"
    spec.dependency "AppLovinMediationMintegralAdapter"
-   spec.dependency "AppLovinMediationByteDanceAdapter"
-
+ 
 end
