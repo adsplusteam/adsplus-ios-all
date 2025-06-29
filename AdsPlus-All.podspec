@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-All"
-  spec.version      = "4.2.8.2"
+  spec.version      = "4.2.8.3"
   spec.summary      = "AdsPlus通用版本."
 
   # This description is used to generate tags and improve search results.
@@ -141,16 +141,17 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    spec.dependency "AliyunLogProducer", "3.1.16"
    spec.dependency "AliyunOSSiOS", "2.10.22"
-   spec.dependency "GDTMobSDK", "4.14.70"
-   spec.dependency "KSAdSDK", "3.3.76.5"
-   spec.dependency "BaiduMobAdSDK", "5.34"
+   spec.dependency "GDTMobSDK",'4.15.40'
+   spec.dependency "KSAdSDK",'3.3.76.5'
+   spec.dependency "BaiduMobAdSDK",'5.392'
    spec.dependency "OctopusSDK", "1.5.9.37"
    spec.dependency "MintegralAdSDK/All", "7.3.7"
-   spec.dependency 'Ads-Fusion-CN-Beta','6.5.1.1'
-   spec.dependency "CSJMBaiduAdapter"
-   spec.dependency "CSJMGdtAdapter"
-   spec.dependency "CSJMKsAdapter"
-   spec.dependency "CSJMMintegralAdapter"
+   spec.dependency 'Ads-CN-Beta','6.9.0.8'
+   #spec.dependency 'Ads-Fusion-CN-Beta','6.5.1.1'
+   #spec.dependency "CSJMBaiduAdapter"
+   #spec.dependency "CSJMGdtAdapter"
+   #spec.dependency "CSJMKsAdapter"
+   #spec.dependency "CSJMMintegralAdapter"
    spec.dependency "BigoADS", "4.6.0"
    spec.dependency "Ads-Global", "6.2.0.9"
    spec.dependency "IronSourceSDK", "7.3.0.0"
