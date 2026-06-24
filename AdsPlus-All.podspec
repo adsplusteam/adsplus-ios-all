@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-All"
-  spec.version      = "4.3.1"
+  spec.version      = '4.3.3'
   spec.summary      = "AdsPlus通用版本."
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = ""
+  spec.license      = { :type => "Proprietary", :text => "Copyright AdsPlus. All rights reserved." }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -66,6 +66,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
    spec.platform     = :ios, "13.0"
+   spec.swift_version = "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -139,27 +140,30 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  spec.dependency 'ADPFoundation', '1.0.0'
+  spec.dependency 'ADPADX', '1.0.0'
   spec.dependency 'AliyunLogProducer', '3.1.16'
   spec.dependency 'AliyunOSSiOS', '2.10.22'
-  spec.dependency 'AnyThinkiOS','6.5.34'
-  spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter','6.5.42.1'
-  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
+  spec.dependency 'AnyThinkiOS','~> 6.5.45'
+  spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter'
+  spec.dependency 'AnyThinkMediationMintegralAdapter'
   
   #国内
-  spec.dependency 'AnyThinkMediationBaiduAdapter','10.022.0'
-  spec.dependency 'AnyThinkMediationZYAdapter','2.5.9.28.2'
-  spec.dependency 'AnyThinkMediationKuaiShouAdapter','4.9.20.3.1'
-  spec.dependency 'AnyThinkMediationTTAdapter','7.2.0.0.7'
-  spec.dependency 'AnyThinkMediationGDTAdapter','4.15.60.7'
-  spec.dependency 'AnyThinkMediationBeiZiAdapter','4.90.7.0.1'
+  spec.dependency 'AnyThinkMediationBaiduAdapter'
+  spec.dependency 'AnyThinkMediationZYAdapter'
+  spec.dependency 'AnyThinkMediationKuaiShouAdapter'
+  spec.dependency 'AnyThinkMediationTTAdapter'
+  spec.dependency 'AnyThinkMediationGDTAdapter'
+  spec.dependency 'AnyThinkMediationBeiZiAdapter'
   
   #国外
-  spec.dependency 'AnyThinkMediationAdmobAdapter','12.12.0.0'
-  spec.dependency 'AnyThinkMediationInmobiAdapter','10.8.8.0'
-  spec.dependency 'AnyThinkMediationApplovinAdapter','13.5.0.0'
-  spec.dependency 'AnyThinkMediationVungleAdapter','7.6.0.1'
-  spec.dependency 'AnyThinkMediationUnityAdsAdapter','4.16.4.0'
-  spec.dependency 'IronSourceSDK','7.3.0.0'
+  spec.dependency 'AnyThinkMediationAdmobAdapter'
+  spec.dependency 'AnyThinkMediationInmobiAdapter'
+  spec.dependency 'AnyThinkMediationApplovinAdapter'
+  spec.dependency 'AnyThinkMediationVungleAdapter'
+  spec.dependency 'AnyThinkMediationUnityAdsAdapter'
   spec.dependency 'BigoADS','5.0.0'
   spec.dependency 'GoogleMobileAdsMediationVungle','7.6.0.0'
   spec.dependency 'GoogleMobileAdsMediationPangle','7.8.0.6.0'
