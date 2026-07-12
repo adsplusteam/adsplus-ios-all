@@ -1,10 +1,10 @@
 {
   "pod_name": "AdsPlus-All",
   "variant": "all",
-  "version": "4.3.3",
-  "source_git_commit": "e783f2d88a6bfabdbf846259f0ff3cb89d3a2349",
+  "version": "4.3.6",
+  "source_git_commit": "3f8f711c829fc8269179e14f94445511821b6104",
   "source_git_branch": "V4.4",
-  "artifact_sha256": "dcbfd9d5041e239eb1c95b5b68eba1ffba536b8ad17d86016c60b697620b666e",
-  "bundle_sha256": "914cf9aa4a25694ff24f59d4a6bad46c85d1659e5e318e332aa369d04a3eb157",
-  "created_at": "2026-06-24T08:52:42Z"
+  "artifact_sha256": "b9af02a90fba4f86f8424538a3e418e6c2833413b3c3c0b9f31fcbdff5183697",
+  "bundle_sha256": "c6124db69d6ddbe69dd65e1fce0ceec44dfa12a3cd4d458432f7097d73707aba",
+  "created_at": "2026-07-12T01:11:15Z"
 }
