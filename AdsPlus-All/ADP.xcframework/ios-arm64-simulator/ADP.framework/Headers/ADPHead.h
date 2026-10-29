@@ -106,6 +106,8 @@
 #define AD_ADP_Pangle       @"adp_pangle"
 #define AD_Amazon           @"amazon"
 #define AD_AdsPlusADX       @"adsplusadx"
+#define AD_Interstitial     @"adpinterstitial"
+
 
 #define AD_ADPSDK          @"ADPSDK"
 
